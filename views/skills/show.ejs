@@ -9,15 +9,9 @@
 </head>
 <body>
     <a href="/">Home</a>
-    <h1>My Developer Skills</h1>
-    <ul>
-      <% skills.forEach(function(s) { %>
-        <li>
-          <a href="/skills/<%= s.id %>"><%= s.skill %></a>
-            - 
-          <%= s.status ? 'extra practice' : 'a ton of extra practice' %>
-        </li>
-      <% }); %>
-    </ul>
+    |
+    <a href="/skills">All Skills</a>
+    <h3><%= skill.skill %></h3>
+    <h3>Daily practice: <%= skill.status ? 'Yes' : 'No' %></h3>
 </body>
 </html>
