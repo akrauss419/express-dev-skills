@@ -11,13 +11,13 @@
     <a href="/">Home</a>
     <h1>My Developer Skills</h1>
     <ul>
-      <% skills.forEach(function(t) { %>
+      <% skills.forEach(function(s) { %>
         <li>
-            <%= t.skill %>
+            <a href="/skills/<%= s.skill %>"><%= s.skill %></a>
               - 
-            <%= t.done ? 'done' : 'not done' %>
+            <%= s.done ? 'extra practice' : 'a ton of extra practice' %>
         </li>
-          <% }); %>
+      <% }); %>
     </ul>
     </body>
 </html>
