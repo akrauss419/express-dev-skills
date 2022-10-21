@@ -1,21 +1,77 @@
 body {
+  height: 100vh;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(0,128,128);
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 6vmin;
 }
 
 a {
-  color: #00B7FF;
+  color: black;
+  font-size: 3vmin;
 }
 
 .delete-form {
   display: inline-block;
   margin-right: 10px;
 }
-    
+
 .delete-form button {
   color: red;
+  font-size: 2.8vmin;
+  font-weight: bold;
+  height: 4vmin;
+  width: 4vmin;
 }
-    
+
+#skill-name {
+  color: rgb(255,127,80);
+  font-size: 5.5vmin;
+}
+
+#new-skill {
+  font-size: 4vmin;
+  color: rgb(255,127,80);
+}
+
+#practice-status {
+  color: rgb(211,155,157);
+  font-size: 4vmin;
+}
+
+#flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 35vh;
+  justify-content: space-between;
+}
+
+#panda {
+  height: 30vmin;
+  align-self: flex-start;
+  margin-right: 15vmin;
+}
+
 li {
   list-style: none;
+}
+
+input {
+  height: 4vmin;
+  border: 0.5vmin solid rgb(255,127,80);
+}
+
+button {
+  height: 3.5vmin;
+}
+
+#save-skill {
+  height: 5.2vmin;
+  border: 0.5vmin solid rgb(211,155,157);
 }

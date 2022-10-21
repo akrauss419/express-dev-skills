@@ -1,5 +1,6 @@
 <%- include('../partials/header') %>
 
+  <div id="flex">
     <ul>
       <% skills.forEach(function(s) { %>
         <li>
@@ -16,6 +17,8 @@
         </li>
       <% }); %>
     </ul>
-    <a href="/skills/new">Add Skill</a>
+    <a href="/skills/new" id="new-skill">Add Skill</a>
+    <img src="https://c.tenor.com/NWtsAKh6jncAAAAC/me-after-learning-javascript-for-six-hours.gif" id="panda">
+  </div>
 
 <%- include('../partials/footer') %>

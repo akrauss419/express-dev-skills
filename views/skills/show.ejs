@@ -1,6 +1,7 @@
 <%- include('../partials/header') %>
 
-    <h3><%= skill.skill %></h3>
-    <h3>Daily practice: <%= skill.status ? 'Yes' : 'No' %></h3>
+    <h3 id="skill-name"><%= skill.skill %></h3>
+    <h3 id="practice-status">Daily practice: <%= skill.status ? 'Not Always' : 'Definitely' %></h3>
+    <img src="https://media.tenor.com/qOBfeEzQHowAAAAM/peanuts-schroeder.gif">
 
 <%- include('../partials/footer') %>
